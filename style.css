@@ -1,0 +1,88 @@
+/* Emplacement et couleur du logo et titre de la page */
+header {
+  text-align: center;
+  color: #d82c2c;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Taille du logo principal */
+.imglogo {
+  width: 10%;
+}
+
+/* Emplacement et couleur du titre des film dans les articles */
+.titre {
+  position: relative;
+  top: -50px;
+  color: white;
+  margin-left: 5px;
+}
+
+/* Mise en page des articles en ligne */
+.row1 {
+  background-color: rgb(255, 255, 255);
+  gap: 50px;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+
+/* Taille des images des articles */
+.img {
+  width: 100%;
+}
+
+/* Personnalisation du fond des colonnes */
+.column1 {
+  justify-content: space-evenly;
+  border-left: solid 10px;
+  width: 600px;
+  size: 30px;
+  border-color: #d82c2c;
+  background-color: rgb(214, 210, 210);
+}
+
+/* Evenement au passage de la souris sur les articles */
+.column1:hover {
+  border-width: rgb(105, 104, 104);
+  border-color: rgb(146, 144, 144);
+}
+
+/* Evenement au clique de la souris sur les articles */
+.column1:hover:active {
+  opacity: 40%;
+}
+
+/* Décalage du contenu des articles */
+.para {
+  margin: 10px;
+}
+
+/* Mise en page des notes dans les articles */
+.para2 {
+  font-weight: bold;
+  color: #d82c2c;
+  margin-left: 10px;
+  width: -45%;
+}
+
+/* Mise en page des Auteur dans les articles */
+.para3 {
+  text-align: end;
+  font-style: italic;
+  margin-right: 5px;
+  width: 100%;
+}
+
+/* Mise en ligne de la note et des auteur des critiques */
+.grosseboite {
+  display: flex;
+  justify-content: flex;
+}
+
+/* Selection et personnalisation de la premiere lettres du paragraphe du contenu des critiques */
+.pf::first-letter {
+  color: #d82c2c;
+  font-size: 160%;
+}
